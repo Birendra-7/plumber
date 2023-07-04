@@ -97,6 +97,28 @@
     color: #181823
 }
 
+@media screen and (min-width: 769px) {
+    .main-header_top {
+        padding: 0 3rem
+    }
+    .main-header_top .menu-toggler {
+        display: none
+    }
+    .main-header_top .main-header_top_right .mobile-menu-header {
+        display: none
+    }
+    .main-header_top .nav-menu ul li a {
+        color: #fff
+    }
+    .main-header_top.fixed {
+        border-bottom: 1px solid #f0f0f0
+    }
+    .main-header_top.fixed .nav-menu ul li a {
+        color: #4273c1;
+        font-weight: 700
+    }
+}
+
 
 
 
@@ -265,6 +287,127 @@ img {
     object-position: center
 }
 
+
+
+@media screen and (min-width: 1367px) {
+    .banner .bg-image,
+    .banner .banner-content-wrap {
+        height: 768px
+    }
+    .banner .banner-content-wrap .banner-content .banner-title h2 {
+        font-size: 4.5rem
+    }
+    .banner .banner-content-wrap .banner-image img {
+        height: 680px
+    }
+    .banner .banner-bottom span {
+        font-size: 3.5rem
+    }
+}
+@media screen and (max-width: 1366px) {
+    .banner .bg-image,
+    .banner .banner-content-wrap {
+        height: 680px
+    }
+    .banner .banner-content-wrap .banner-content .banner-title h2 {
+        font-size: 4.5rem
+    }
+    .banner .banner-content-wrap .banner-image img {
+        height: 620px
+    }
+    .banner .banner-content-wrap .banner-image .swiper-pagination-bullet {
+        background: #fff;
+        opacity: 1
+    }
+    .banner .banner-content-wrap .banner-image .swiper-pagination-bullet-active {
+        background: #4273c1
+    }
+    .banner .banner-bottom span {
+        font-size: 3rem
+    }
+}
+.banner {
+    overflow: hidden;
+    position: relative
+}
+
+.banner .bg-image {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.banner .bg-image img {
+    width: 100%;
+    object-fit: cover
+}
+
+.banner .banner-content-wrap {
+    width: 100%;
+    background: linear-gradient(rgba(3, 12, 49, 0.9098039216), rgba(65, 94, 226, 0.768627451));
+    color: #fff;
+    position: relative;
+    padding-top: 200px
+}
+
+.banner .banner-content-wrap .banner-content {
+    height: 100%
+}
+
+.banner .banner-content-wrap .banner-content .banner-title h2 {
+    font-weight: 900;
+    text-transform: capitalize
+}
+
+.banner .banner-content-wrap .banner-content .banner-title h2 span {
+    color: #2db8db;
+    -webkit-text-stroke: 2px solid #fff
+}
+
+.banner .banner-content-wrap .banner-content .banner-sub-title p {
+    font-family: "Poppins", sans-serif
+}
+
+.banner .banner-content-wrap .banner-content .banner-btn {
+    margin-top: 1.5rem
+}
+
+.banner .banner-content-wrap .banner-image {
+    position: relative;
+    overflow: hidden
+}
+
+.banner .banner-content-wrap .banner-image img {
+    width: 100%
+}
+
+.banner .banner-bottom {
+    height: 180px;
+    width: 100%;
+    background: #34d6ff ;
+}
+
+.banner .banner-bottom span {
+    color: #fff;
+    font-weight: 900;
+    margin: 0
+}
+
+html {
+    font-size: 16px
+}
+
+body {
+    font-family: "Open Sans", sans-serif
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center
+}
 ul,
 li {
     list-style: none;
@@ -728,42 +871,3 @@ p {
     color: #4273c1;
     margin-top: 25px
 }
-@media screen and (min-width: 1367px) {
-    .banner .bg-image,
-    .banner .banner-content-wrap {
-        height: 768px
-    }
-    .banner .banner-content-wrap .banner-content .banner-title h2 {
-        font-size: 4.5rem
-    }
-    .banner .banner-content-wrap .banner-image img {
-        height: 680px
-    }
-    .banner .banner-bottom span {
-        font-size: 3.5rem
-    }
-}
-
-
-@media screen and (min-width: 769px) {
-    .main-header_top {
-        padding: 0 3rem
-    }
-    .main-header_top .menu-toggler {
-        display: none
-    }
-    .main-header_top .main-header_top_right .mobile-menu-header {
-        display: none
-    }
-    .main-header_top .nav-menu ul li a {
-        color: #fff
-    }
-    .main-header_top.fixed {
-        border-bottom: 1px solid #f0f0f0
-    }
-    .main-header_top.fixed .nav-menu ul li a {
-        color: #4273c1;
-        font-weight: 700
-    }
-}
-
