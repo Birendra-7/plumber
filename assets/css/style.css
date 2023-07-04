@@ -728,6 +728,42 @@ p {
     color: #4273c1;
     margin-top: 25px
 }
+@media screen and (min-width: 1367px) {
+    .banner .bg-image,
+    .banner .banner-content-wrap {
+        height: 768px
+    }
+    .banner .banner-content-wrap .banner-content .banner-title h2 {
+        font-size: 4.5rem
+    }
+    .banner .banner-content-wrap .banner-image img {
+        height: 680px
+    }
+    .banner .banner-bottom span {
+        font-size: 3.5rem
+    }
+}
 
 
-/*# sourceMappingURL=main.min.css.map */
+@media screen and (min-width: 769px) {
+    .main-header_top {
+        padding: 0 3rem
+    }
+    .main-header_top .menu-toggler {
+        display: none
+    }
+    .main-header_top .main-header_top_right .mobile-menu-header {
+        display: none
+    }
+    .main-header_top .nav-menu ul li a {
+        color: #fff
+    }
+    .main-header_top.fixed {
+        border-bottom: 1px solid #f0f0f0
+    }
+    .main-header_top.fixed .nav-menu ul li a {
+        color: #4273c1;
+        font-weight: 700
+    }
+}
+
